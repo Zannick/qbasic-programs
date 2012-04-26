@@ -1,0 +1,14 @@
+REM Benjamin Wolf
+REM April 15, 2003
+REM A Sailboat That is Very Oddly Colored
+CLS
+SCREEN 12
+FOR x = 1 TO 361
+IF x = 361 THEN x = 1
+DRAW "C5 BM300,240 TA" + LTRIM$(RTRIM$(STR$(x))) + " L23 F15 R65 E15 L72 U75 F70 L70 BM310,250 P10,5 BM 310,230 P7,5 BM10,10 P3,5"
+FOR y = 1 TO 5000
+NEXT y
+
+NEXT x
+END
+

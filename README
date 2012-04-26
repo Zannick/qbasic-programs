@@ -1,0 +1,241 @@
+Summary
+
+This is a collection of every QuickBASIC 4.5 program I wrote that, until
+recently, were stored on a single floppy disk in a cabinet among my personal
+effects that I had left behind in my parents' house when I moved out after
+college. These were all dated between Sep 2002 and May 2003, corresponding
+directly with the "Computer Programming 1" course I took in high school. The
+following year's course was Java; I never revisited the language of QBASIC
+after picking up Java in the summer of 2003.
+
+A lot of these programs were small class assignments teaching something specific
+about QBASIC or programming; 4 were from American Computer Science League
+programming competitions (and I don't have the questions any more). The most
+interesting programs are GOLIFE.BAS (a Game of Life simulator on a finite grid),
+INVIS4.BAS (a Connect Four game that does not show the pieces until someone
+wins), and CHESS.BAS (Chess).
+
+I can't guarantee that these files are free of bugs or in any way useful to
+the modern programmer. CHESS.BAS in particular had two known bugs I never
+tracked down to fix: pawns on the 7th row could be moved backwards, and kings
+could move next to each other (and thence be captured). I also needed to remove
+"A:" from the OPEN statement on line 35 to get CHESS.BAS to run at all.
+
+I am releasing this code into the public domain, unedited from the final form
+set on that floppy disk 9+ years ago (other than to re-save the source files
+as text, which I did by running QuickBASIC in DOSBox).
+
+File List (by last edit date)
+
+Sep 10 2002 PRIME1.BAS
+Sep 11 2002 PRIME2.BAS
+Sep 11 2002 RBTRIVIA.BAS
+Nov  6 2002 TWOS.BAS
+Nov  6 2002 BWDATE.BAS
+Nov 27 2002 IDNUMS.BAS
+Dec  4 2002 ACSL1BW.BAS
+Jan  6 2003 TICTAC.BAS
+Jan  9 2003 7X7GRID.BAS
+Jan 12 2003 HYBRID.BAS
+Jan 15 2003 BWHANG.BAS
+Feb  5 2003 BWACSL2.BAS
+Feb 24 2003 BWML.BAS
+Mar  7 2003 BWASCL3.BAS
+Mar 17 2003 SHELL.BAS
+Mar 17 2003 BUBBLE.BAS
+Mar 17 2003 RNDNUM.BAS
+Mar 26 2003 FIBONUM.BAS
+Mar 31 2003 ACSL4BW.BAS
+Apr  4 2003 PERFECT.BAS
+Apr 10 2003 BWFACE.BAS
+Apr 12 2003 PERFECT2.BAS
+Apr 15 2003 ROTATE.BAS
+Apr 15 2003 BOAT.BAS
+May  2 2003 CONX4.BAS
+May  5 2003 GOLIFE.BAS
+May  7 2003 SELECTOR.BAS
+May  8 2003 INVIS4.BAS
+May 13 2003 SONG.BAS
+May 14 2003 SOFSTORM.BAS
+May 15 2003 SIREN.BAS
+May 19 2003 BWFLAG.BAS
+May 23 2003 BWYAHTZE.BAS
+May 30 2003 CLUE.BAS
+Jun 12 2003 CHESS.BAS
+
+Long Version
+
+PRIME1.BAS
+
+I learned QuickBASIC originally toward the end of 8th grade Geometry; none of
+the programs I wrote then have survived. Over the following summer I wrote a
+program on paper that found and printed out the nth prime number. Once I
+started the QuickBASIC class and again had access to a computer that I could
+use to write QuickBASIC programs, this is the program that resulted. Later I
+ported it to the TI-BASIC language on the TI-83 I used through high school.
+
+PRIME2.BAS
+
+Similar to PRIME1.BAS, this program simply lists primes. I used it to find
+what the millionth prime was.
+
+RBTRIVIA.BAS
+
+Probably the first assignment in the class, this is a trivia quiz written
+by myself and my friend Rudy Mukherjee. It contains a glimpse into my sense
+of humor circa 2002.
+
+TWOS.BAS
+
+Based on what this program appears to currently do:
+Given the first three numbers in a sequence a1, a2, a3, ... (where the
+difference between terms is constant), counts the number of times the
+digit "2" appears in the first 2000 terms of that sequence.
+
+BWDATE.BAS
+
+Given the number of elapsed seconds from 2003 Jan 01 00:00:00, outputs
+the date. Apparently I did a really good job on this assignment, as my
+teacher remarked "Ben great job. Grade=100." at the top of the file.
+
+IDNUMS.BAS
+
+Calculate a check digit for a given ID number. Somewhere around here we
+were taught subroutines.
+
+ACSL1BW.BAS
+
+First ACSL program.
+
+TICTAC.BAS
+
+Tic tac toe.
+
+7X7GRID.BAS
+
+Displays a 7x7 grid.
+
+HYBRID.BAS
+
+"Hybrid Cross Genetic Ratios", according to the comment in the file. I guess
+that is like, given genomes AA and BB from the parents, count the number of
+AB/BA hybrid genomes in possible children. Input is the number of genes.
+
+BWHANG.BAS
+
+Hangman. This was apparently after learning about the DATA and READ keywords.
+I also got to mess around a little with ASCII art animation.
+
+BWACSL2.BAS
+
+Another one of these competition programs.
+
+BWML.BAS
+
+A madlib. Uses a data file "madlib.txt" and outputs the result to "endlib.txt".
+This actually uses "A:madlib.txt" and "A:endlib.txt" so if you actually want to
+run this you'll want to change that.
+
+BWASCL3.BAS
+
+Another competition program.
+
+SHELL.BAS
+
+No, not a shell, but shell *sort*. Input file is "A:numbers.txt", output file
+is "A:shell.txt". Apparently QuickBASIC ignores case.
+
+BUBBLE.BAS
+
+Bubble sort. Same input file as SHELL.BAS, but outputs to "A:bubbles.txt".
+
+RNDNUM.BAS
+
+Generates random numbers.
+
+FIBONUM.BAS
+
+Apparently our introduction to functions in QuickBASIC, this is Fibonacci.
+
+ACSL4BW.BAS
+
+The last competition program.
+
+PERFECT.BAS
+
+Finds the next perfect number. Appears to be pre-seeded so it skips the first
+four perfect numbers (the easy ones).
+
+BWFACE.BAS
+
+Here we learned how to draw. This program draws a face. Or rather, a "face".
+
+PERFECT2.BAS
+
+Another way to find perfect numbers, apparently using Mersenne.
+
+ROTATE.BAS
+
+A circle rotating...?
+
+BOAT.BAS
+
+"REM A Sailboat That is Very Oddly Colored"
+
+CONX4.BAS
+
+Connect Four.
+
+GOLIFE.BAS
+
+A program I wrote for fun, simulates Conway's Game of Life.
+Starts in edit mode: w/a/s/d to move the cursor, p to add a point, g to go.
+go mode: n to step, d to edit, q to quit, su/sl/sd/sr to shift the contents
+up/left/down/right.
+
+SELECTOR.BAS
+
+Lets you move an arrow around a grid, using a and s.
+
+INVIS4.BAS
+
+Invisible Connect Four.
+I had had the bright idea, based on how I had structured CONX4.BAS, to delay
+drawing the actual moves until the end of the game (where I was drawing
+the line showing the victorious 4 in a row). It was a simple change.
+True story: this was the only way I could beat my teacher at Connect Four.
+
+SONG.BAS
+
+Here we learned how to make sound. Looking back at the notation, very much
+reminds me of lilypond notation.
+
+SOFSTORM.BAS
+
+Song of Storms from The Legend of Zelda: Ocarina of Time.
+
+SIREN.BAS
+
+Apparently I tried to make a siren. I don't recommend trying to listen to it.
+
+BWFLAG.BAS
+
+Draws a flag and plays an anthem?
+
+BWYAHTZE.BAS
+
+Yahtzee! Apparently I also included a "cheat code" wherein you could set your
+name to "YahtzeeMan!" and then the game would tell you off for trying to cheat.
+
+CLUE.BAS
+CHESS.BAS
+
+The final project for this class was supposed to be one of a set of possible
+games: Clue, Risk, or Checkers with LAN. I apparently got bored writing Clue
+and asked if I could write Chess instead, for extra credit. My teacher allowed
+it, and ended up penalizing me my bonus due to a couple of bugs found by
+a classmate trying to break it, leaving me with a measly 100. ;)
+
+Namely, once my pawn reached the 7th row, he selected it on his turn and moved
+it back two spaces. Later he moved his king next to mine, and I captured it.
+Oops.

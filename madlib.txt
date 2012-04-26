@@ -1,0 +1,20 @@
+17, place, noun, adjective, noun, exclamation, number, food, piece of clothing, occupation, length of time (plural), adjective, length of time (plural), adjective, noun, noun, number, part of body
+"A long time ago, in a place called ", xyzzy,", there lived a(n) ", xyzzy," who was called Xyzzilaus.",EOL
+"(His full name was Xyzzilaus the ", xyzzy,".)",EOL
+"He was only a poor, old ", xyzzy,". One day at his job, Xyzzilaus said,";, xyzzy,"! I don't want this job anymore!",;,EOL
+;,"It pays only $", xyzzy," a week, and that's not enough! I quit!",;,EOL
+EOL
+"Xyzzilaus started looking for a new job. When he wasn't actively searching, he was slacking at home, eating sour ", xyzzy," wearing nothing but his ", xyzzy,".",EOL
+"Then he finally found a job! He became a(n) ", xyzzy,"!",EOL
+"For the first few ", xyzzy,", he really loved his new, ", xyzzy," job.",EOL
+"Then his boss locked him in the basement.",EOL
+EOL
+"Xyzzilaus stayed in the basement for many ", xyzzy,".",EOL
+"Then he figured out how to escape from his ", xyzzy," prison.",EOL
+"He would take a(n) ", xyzzy," and throw it at the window.",EOL
+"Then he'd climb up, open the window, and jump out!",EOL
+"He would finally be able to go back to his ", xyzzy,"!",EOL
+EOL
+"However, the building was ", xyzzy," stories high, so when Xyzzilaus jumped out the window, he fell to the ground and broke his ", xyzzy,".",EOL
+EOL
+THE END
